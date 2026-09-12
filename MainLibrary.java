@@ -56,8 +56,7 @@ public class MainLibrary
                     System.out.println("Enter The Name Item For Search : ");
                     String searchItem = input.next();
                     result.searchItem(searchItem);
-                    break;                              
-                
+                    break;        
             }
          
         }while(option!=5);

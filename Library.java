@@ -10,7 +10,7 @@ public class Library
 
     public void showAll()
     {
-        for(Item x : Knowledge) // For Each Loop 
+        for(Item x : Knowledge) // ----->  For Each Loop 
             {
                 System.out.println(x);
                 x.displayCategoryInfo();
