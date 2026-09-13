@@ -18,6 +18,7 @@ public class MainLibrary
             option = input.nextInt();
             switch (option)
             {
+                // Add Book
                 case 1 :
                     System.out.println("Enter The Titel Of Book Please : ");
                     String name = input.next();
@@ -34,6 +35,7 @@ public class MainLibrary
                     result.addItem(new Book(name,id,price,Avail,author,pages));
                     break;
 
+                // Add Magazine    
                 case 2 :
                     System.out.println("Enter The Titel Of Magazine Please : ");
                     String name2 = input.next();
