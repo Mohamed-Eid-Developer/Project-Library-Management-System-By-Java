@@ -3,6 +3,7 @@ public class Library
 {
     ArrayList<Item>Knowledge = new ArrayList<Item>();
 
+    // Adding Method
     public void addItem(Item i)
     {
         Knowledge.add(i);   
@@ -18,6 +19,7 @@ public class Library
             } 
     }
 
+    // Search Method
     public void searchItem(String expectItem)
     {
         boolean found = false; 
